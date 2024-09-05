@@ -1,0 +1,288 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Valentines Day Quiz 2022</title>
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+</head>
+<body oncontextmenu="return false">
+<div class="main-banner" id="top">
+    <img id="bg-image" class="img-fluid" src="css/img/valentines-day.jpg" alt="bg-image">
+    <div class="video-overlay header-text">
+        <div class="caption pt-3">
+            <h2>"<em>Love</em> is not just looking at each other, It's looking in the same
+                <em>direction</em>"</h2>
+            <h5 class="text-white pl-1 pr-1"><span>scroll down to take the challenge</span></h5>
+        </div>
+    </div>
+</div>
+<div class="quiz-form-notice p-3 btn-outline-danger"><b>Note :</b> This quiz is meant for entertainment purpose only as we don't guarantee its results !
+</div>
+<div class="quiz-form-notice p-3 btn-outline-success">
+    <h4>Terms and Conditions</h4>
+    <span><b>1 : </b>Please choose a options that's more suitable to you.</span><br>
+    <span><b>2 : </b>Decision taken by the coordinators will be final.</span><br>
+    <span><b>3 : </b>We do not store this data as they will be cleared by evening.</span><br>
+    <span><b>4 : </b>Best compatible valentines will be informed by registered E-Mail.</span>
+
+</div>
+<form name="frm" id="frm" action="action.php" enctype="multipart/form-data" method="post">
+    <div class="quiz-form p-3">
+        <h4>Basic Info</h4>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="form-outline">
+                    <input type="text" class="form-control" id="name" name="name" required/>
+                    <label for="name" class="form-label">Name</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group form-outline">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="email" class="form-control" id="email" name="email"
+                           aria-describedby="inputGroupPrepend" required/>
+                    <label for="email" class="form-label">Email</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select class="form-select" name="year" id="year" required aria-label="Year">
+                        <option value="" hidden>select option</option>
+                        <option value="1">1st year</option>
+                        <option value="2">2nd year</option>
+                        <option value="3">None of the above</option>
+                    </select>
+                    <label for="year">Year</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select class="form-select" name="gender" id="gender" required="required" aria-label="Gender">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="2">Other</option>
+                    </select>
+                    <label for="gender">Gender</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group form-outline">
+                    <input title="eg: Computer Science" type="text" class="form-control" id="department" name="department" required/>
+                    <label for="department" class="form-label">Department <small>( eg : Computer Science )</small></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--            Question starts here          -->
+
+    <div class="quiz-form p-3">
+        <h4>Questions</h4>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q1" id="q1" aria-label="Talking or Listening ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Talking</option>
+                        <option value="2">Listening</option>
+                    </select>
+                    <label for="q1">Talking or Listening ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q2" id="q2" aria-label="Planning or Winging it ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Planning</option>
+                        <option value="2">Winging</option>
+                    </select>
+                    <label for="q2">Planning or Winging it ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q3" id="q3" aria-label="Coffee or Tea ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Coffee</option>
+                        <option value="2">Tea</option>
+                    </select>
+                    <label for="q3">Coffee or Tea ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q4" id="q4" aria-label="Early bird or Latecomer ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Early bird</option>
+                        <option value="2">Latecomer</option>
+                    </select>
+                    <label for="q4">Early bird or Latecomer ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q5" id="q5" aria-label="Sweet or Sour ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Sweet</option>
+                        <option value="2">Sour</option>
+                    </select>
+                    <label for="q5">Sweet or Sour ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q6" id="q6" aria-label="Night out or Night in ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Night out</option>
+                        <option value="2">Night in</option>
+                    </select>
+                    <label for="q6">Night out or Night in ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q7" id="q7" aria-label="Funny movie or Dramatic movie ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Funny movie</option>
+                        <option value="2">Dramatic movie</option>
+                    </select>
+                    <label for="q7">Funny movie or Dramatic movie ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q8" id="q8" aria-label="Cat or Dog ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Cat Person</option>
+                        <option value="2">Dog Person</option>
+                    </select>
+                    <label for="q8">Cat Person or Dog Person ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q9" id="q9" aria-label="Vegetarian or Non-Vegetarian ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Vegetarian</option>
+                        <option value="2">Non-Vegetarian</option>
+                    </select>
+                    <label for="q9">Vegetarian or Non-Vegetarian ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q10" id="q10" aria-label="Food truck or Restaurant ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Food truck</option>
+                        <option value="2">Restaurant</option>
+                    </select>
+                    <label for="q10">Food truck or Restaurant ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q11" id="q11" aria-label="Vanilla or Chocolate ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Vanilla</option>
+                        <option value="2">Chocolate</option>
+                    </select>
+                    <label for="q11">Vanilla or Chocolate ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q12" id="q12" aria-label="Room-mates or Live alone ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Roommates</option>
+                        <option value="2">Live alone</option>
+                    </select>
+                    <label for="q12">Roommates or Live alone ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q13" id="q13" aria-label="Looks or Personality ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Looks</option>
+                        <option value="2">Personality</option>
+                    </select>
+                    <label for="q13">Looks or Personality ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select required class="form-select" name="q14" id="q14"
+                            aria-label="Faithful truth or Comforting lie ?">
+                        <option value="" hidden>select option</option>
+                        <option value="1">Faithful truth</option>
+                        <option value="2">Comforting lie</option>
+                    </select>
+                    <label for="q14">Faithful truth or Comforting lie ?</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="checkbox">
+                    <label class="form-check-label" for="checkbox">I agree to the terms and
+                        conditions</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 quiz-button">
+            <button id="button" disabled class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
+</body>
+
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+    document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+</script>
+<!--<script>-->
+<!--    if(performance.navigation.type == 2){-->
+<!--        location.reload(true);-->
+<!--    }-->
+<!--</script>-->
+<script>
+    const checkbox = document.getElementById('checkbox');
+    const button = document.getElementById('button');
+
+    const toggleButtonState = function (event) {
+        button.disabled = !event.target.checked;
+    }
+
+    checkbox.addEventListener('change', toggleButtonState)
+</script>
+
+<!-- jQuery -->
+<script src="js/jquery-2.1.0.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/popper.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+</html>

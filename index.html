@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <title>Valentines Day 2022</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body oncontextmenu="return false">
+<!-- ***** Main Banner Area Start ***** -->
+<div class="main-banner" id="top">
+    <video autoplay muted loop id="bg-video">
+        <source src="css/video-play-back.webm" type="video/webm"/>
+    </video>
+    <div class="video-overlay header-text">
+        <div class="caption pt-3">
+            <h5 class="text-white pl-1 pr-1">" Your flaws are perfect for the heart that meant to love you "</h5>
+            <h5 class="text-white text-center">- Trent Shelton</h5>
+            <h2>Find your perfect <em>Valentine</em></h2>
+            <div class="main-button">
+                <a href="quiz.html">Take a quick challenge</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Main Banner Area End ***** -->
+</body>
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+    document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+</script>
+<!-- jQuery -->
+<script src="js/jquery-2.1.0.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugins -->
+<!--<script src="js/jquery.counterup.min.js"></script>-->
+
+<!-- Global Init -->
+<script src="js/custom.js"></script>
+</html>
